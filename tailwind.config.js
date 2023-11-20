@@ -6,6 +6,8 @@ export default {
       background: "#150E28",
       primary: "#903AFF",
       secondary: "#D434FE",
+      gradient1: "#FF26B9",
+      gradient2: "#FE34B9",
       white: "#FFF",
       black: "#000",
     },

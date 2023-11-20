@@ -1,10 +1,12 @@
-import { Outlet } from "react-router-dom";
+// import { Outlet } from "react-router-dom";
+import Header from "./Header";
 
 function AppLayout() {
   return (
-    <main className="bg-background h-screen">
-      <Outlet />
-    </main>
+    <section className="bg-background">
+      <Header />
+      {/* <Outlet /> */}
+    </section>
   );
 }
 

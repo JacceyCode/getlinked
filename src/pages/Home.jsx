@@ -5,7 +5,7 @@ function Home() {
         Home Page
       </h1>
       <h2 className="bg-primary text-background font-clash font-semibold">
-        Another line
+        Another lineg
       </h2>
     </section>
   );

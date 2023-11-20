@@ -5,6 +5,7 @@ import AppLayout from "./components/AppLayout";
 const router = createBrowserRouter([
   {
     element: <AppLayout />,
+    // errorElement:
     children: [
       {
         path: "/",

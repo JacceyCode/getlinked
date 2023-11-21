@@ -97,7 +97,7 @@ function Hero() {
         />
       </section>
 
-      <section className="absolute -top-44 left-0 h-full w-3/4 bg-[url('/Purple-Lens-Flare.png')] bg-cover bg-no-repeat mix-blend-hard-light"></section>
+      <section className="absolute -left-40 -top-[22rem] h-full w-3/4 bg-[url('/Purple-Lens-Flare.png')] bg-cover bg-no-repeat mix-blend-saturation"></section>
 
       <section className="absolute bottom-0 right-0">
         <img

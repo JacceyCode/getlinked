@@ -45,7 +45,8 @@ function Overview() {
       </section>
 
       {/* --------------------2nd part--------------------- */}
-      <section className="border-y border-white/20">
+
+      <section className="relative border-y border-white/20">
         <section className="mx-auto flex max-w-[70rem] flex-row-reverse items-center justify-center gap-[3rem]">
           <section className="relative w-1/2">
             <img
@@ -62,7 +63,7 @@ function Overview() {
             />
           </section>
 
-          <section className="flex w-1/2 flex-col gap-6">
+          <section className="z-50 flex w-1/2 flex-col gap-6">
             <span className="relative">
               <h2 className="font-clash text-[2rem] font-bold text-white">
                 Rules and <br />
@@ -86,7 +87,27 @@ function Overview() {
             </span>
           </section>
         </section>
+
+        <section className="absolute left-0 top-0 h-full w-full overflow-hidden">
+          <img
+            className="absolute -bottom-32 left-0 mix-blend-saturation"
+            src="/Purple-Lens-Flare.png"
+            alt="Purple Flare"
+          />
+        </section>
+
+        <section className="absolute right-0 top-0 h-full w-full overflow-hidden">
+          <img
+            className="absolute -right-[30rem] top-20 mix-blend-saturation"
+            src="/Purple-Lens-Flare.png"
+            alt="Purple Flare"
+          />
+        </section>
       </section>
+
+      {/* --------------------3rd part--------------------- */}
+
+      <section></section>
     </section>
   );
 }

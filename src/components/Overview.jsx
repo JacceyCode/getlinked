@@ -65,18 +65,25 @@ function Overview() {
           <section className="flex w-1/2 flex-col gap-6">
             <span className="relative">
               <h2 className="font-clash text-[2rem] font-bold text-white">
-                Introduction to getlinked <br />
-                <span className="text-secondary">tech Hackathon 1.0</span>
+                Rules and <br />
+                <span className="text-secondary">Guidelines</span>
               </h2>
               <img
-                className="absolute -right-6 top-1/3"
-                src="/star.png"
+                className="absolute -top-6 left-80"
+                src="/star-gray.png"
                 alt="star"
               />
             </span>
-            <p className="font-mont text-sm font-normal leading-6 text-white">
-              {`Our tech hackathon is a melting pot of visionaries, and its purpose is as clear as day: to shape the future. Whether you're a coding genius, a design maverick, or a concept wizard, you'll have the chance to transform your ideas into reality. Solving real-world problems, pushing the boundaries of technology, and creating solutions that can change the world, that's what we're all about!`}
-            </p>
+            <span className="relative">
+              <p className="font-mont text-sm font-normal leading-6 text-white">
+                {`Our tech hackathon is a melting pot of visionaries, and its purpose is as clear as day: to shape the future. Whether you're a coding genius, a design maverick, or a concept wizard, you'll have the chance to transform your ideas into reality. Solving real-world problems, pushing the boundaries of technology, and creating solutions that can change the world, that's what we're all about!`}
+              </p>
+              <img
+                className="absolute -bottom-4 -right-16"
+                src="/star-white.png"
+                alt="star"
+              />
+            </span>
           </section>
         </section>
       </section>

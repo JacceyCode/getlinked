@@ -1,7 +1,7 @@
 function Overview() {
   return (
     <section className="">
-      <section className="mx-auto flex max-w-[70rem] items-center justify-center gap-[7rem] py-16">
+      <section className="mx-auto flex max-w-[80rem] items-center justify-center gap-[7rem] py-16">
         <section className="relative w-1/2">
           <img
             className="w-full"
@@ -47,7 +47,7 @@ function Overview() {
       {/* --------------------2nd part--------------------- */}
 
       <section className="relative border-y border-white/20">
-        <section className="mx-auto flex max-w-[70rem] flex-row-reverse items-center justify-center gap-[3rem]">
+        <section className="mx-auto flex max-w-[80rem] flex-row-reverse items-center justify-center gap-[3rem]">
           <section className="relative w-1/2">
             <img
               className="w-full"
@@ -106,7 +106,7 @@ function Overview() {
       </section>
 
       {/* --------------------Purple Flare starts-------------------- */}
-      <section className="absolute right-0 top-[103rem] h-full w-full overflow-hidden">
+      <section className="absolute right-0 top-[112rem] h-full w-full overflow-hidden">
         <img
           className="absolute -right-[30rem] top-20 mix-blend-saturation"
           src="/Purple-Lens-Flare.png"
@@ -114,7 +114,9 @@ function Overview() {
         />
       </section>
 
-      <section className="absolute right-0 top-[160rem] h-full w-full overflow-hidden">
+      {/* -------------- 2nd Flare ---------- */}
+
+      <section className="absolute right-0 top-[170rem] h-full w-full overflow-hidden">
         <img
           className="absolute -right-[20rem] top-20 mix-blend-saturation"
           src="/Purple-Lens-Flare.png"
@@ -125,8 +127,8 @@ function Overview() {
 
       {/* --------------------3rd part--------------------- */}
 
-      <section className="relative border-y border-white/20 pb-32 pt-20">
-        <section className="mx-auto flex max-w-[70rem] items-center justify-center gap-[3rem]">
+      <section className="relative border-y border-white/20 pb-40 pt-20">
+        <section className="mx-auto flex max-w-[80rem] items-center justify-center gap-[8rem]">
           <section className="relative z-50 w-1/2">
             <img
               className="w-full"
@@ -158,7 +160,7 @@ function Overview() {
 
           {/* /////////// Ellipse starts ////////////// */}
 
-          <span className="absolute left-[21rem] top-36">
+          <span className="absolute left-[17rem] top-32">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="134"
@@ -189,7 +191,7 @@ function Overview() {
 
           <section className="absolute left-0 top-0 h-full w-full overflow-hidden">
             <img
-              className="absolute -left-20 top-40 mix-blend-saturation"
+              className="absolute -left-36 top-52 mix-blend-saturation"
               src="/Purple-Lens-Flare.png"
               alt="Purple Flare"
             />

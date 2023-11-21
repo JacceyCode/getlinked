@@ -30,14 +30,25 @@ function Hero() {
               className="absolute -top-9 left-[32rem]"
               src="/light-bulb.png"
               alt="bulb"
+              loading="eager"
             />
           </h1>
 
           <span className="-mt-8 flex items-center gap-2">
             <span>Hackathon</span>
             <span className="text-secondary">1.0</span>
-            <img className="w-20" src="/chain.png" alt="chain" />
-            <img className="w-16" src="/explode.png" alt="blast" />
+            <img
+              className="w-20"
+              src="/chain.png"
+              alt="chain"
+              loading="eager"
+            />
+            <img
+              className="w-16"
+              src="/explode.png"
+              alt="blast"
+              loading="eager"
+            />
           </span>
         </section>
 
@@ -70,16 +81,19 @@ function Hero() {
           className="absolute -top-36 left-16"
           src="/star-white.png"
           alt="star"
+          loading="eager"
         />
         <img
           className="absolute -top-16 left-[56rem]"
           src="/star-gray.png"
           alt="star"
+          loading="eager"
         />
         <img
           className="absolute left-[27.5rem] top-[25rem]"
           src="/star-gray.png"
           alt="star"
+          loading="eager"
         />
       </section>
 
@@ -90,9 +104,15 @@ function Hero() {
           className="w-full"
           src="/man-wearing-smart-glasses.png"
           alt="Hero"
+          loading="eager"
         />
         <section className="absolute left-16 top-0">
-          <img className="w-full" src="/worldStar.png" alt="Hero" />
+          <img
+            className="w-full"
+            src="/worldStar.png"
+            alt="Hero"
+            loading="eager"
+          />
         </section>
       </section>
     </section>

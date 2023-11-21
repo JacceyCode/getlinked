@@ -52,7 +52,7 @@ function Overview() {
             <img
               className="w-full"
               src="/female.png"
-              alt="Idea"
+              alt="Female"
               loading="lazy"
             />
             <img
@@ -96,18 +96,174 @@ function Overview() {
           />
         </section>
 
-        <section className="absolute right-0 top-0 h-full w-full overflow-hidden">
+        {/* <section className="absolute right-0 top-0 h-full w-full overflow-hidden">
           <img
             className="absolute -right-[30rem] top-20 mix-blend-saturation"
             src="/Purple-Lens-Flare.png"
             alt="Purple Flare"
           />
-        </section>
+        </section> */}
       </section>
+
+      {/* --------------------Purple Flare starts-------------------- */}
+      <section className="absolute right-0 top-[103rem] h-full w-full overflow-hidden">
+        <img
+          className="absolute -right-[30rem] top-20 mix-blend-saturation"
+          src="/Purple-Lens-Flare.png"
+          alt="Purple Flare"
+        />
+      </section>
+
+      <section className="absolute right-0 top-[160rem] h-full w-full overflow-hidden">
+        <img
+          className="absolute -right-[20rem] top-20 mix-blend-saturation"
+          src="/Purple-Lens-Flare.png"
+          alt="Purple Flare"
+        />
+      </section>
+      {/* --------------------Purple Flare ends--------------------- */}
 
       {/* --------------------3rd part--------------------- */}
 
-      <section></section>
+      <section className="relative border-y border-white/20 pb-32 pt-20">
+        <section className="mx-auto flex max-w-[70rem] items-center justify-center gap-[3rem]">
+          <section className="relative z-50 w-1/2">
+            <img
+              className="w-full"
+              src="/two persons.png"
+              alt="Persons"
+              loading="lazy"
+            />
+
+            {/* //////// Stars ///////// */}
+            <img
+              className="absolute -top-32 left-28"
+              src="/star.png"
+              alt="star"
+              loading="lazy"
+            />
+            <img
+              className="absolute left-80 top-48"
+              src="/star-gray.png"
+              alt="star"
+              loading="lazy"
+            />
+            <img
+              className="absolute bottom-0 right-0"
+              src="/star-white.png"
+              alt="star"
+              loading="lazy"
+            />
+          </section>
+
+          {/* /////////// Ellipse starts ////////////// */}
+
+          <span className="absolute left-[21rem] top-36">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="134"
+              height="134"
+              viewBox="0 0 134 134"
+              fill="none"
+            >
+              <circle cx="67" cy="67" r="67" fill="url(#paint0_linear_70_6)" />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_70_6"
+                  x1="134"
+                  y1="67"
+                  x2="3.69183"
+                  y2="67"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="#8F01FE" />
+                  <stop offset="1" stopColor="#FF2674" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </span>
+
+          {/* /////////// Ellipse ends ////////////// */}
+
+          {/* //////////////// Foot Splash starts /////////////// */}
+
+          <section className="absolute left-0 top-0 h-full w-full overflow-hidden">
+            <img
+              className="absolute -left-20 top-40 mix-blend-saturation"
+              src="/Purple-Lens-Flare.png"
+              alt="Purple Flare"
+            />
+          </section>
+
+          {/* //////////////// Foot Splash ends /////////////// */}
+
+          <section className="flex w-1/2 flex-col gap-4">
+            <h2 className="font-clash text-[2rem] font-bold text-white">
+              Judging Criteria <br />
+              <span className="text-secondary">Key attributes</span>
+            </h2>
+
+            <span className="font-mont text-sm font-normal leading-6 text-white">
+              <span className="text-gradient1 text-base font-bold">
+                Innovation and Creativity
+              </span>
+              : Evaluate the uniqueness and creativity of the solution. Consider
+              whether it addresses a real-world problem in a novel way or
+              introduces innovative features.
+            </span>
+
+            <span className="font-mont text-sm font-normal leading-6 text-white">
+              <span className="text-gradient1 text-base font-bold">
+                Functionality
+              </span>
+              : Assess how well the solution works. Does it perform its intended
+              functions effectively and without major issues? Judges would
+              consider the completeness and robustness of the solution.
+            </span>
+
+            <span className="font-mont text-sm font-normal leading-6 text-white">
+              <span className="text-gradient1 text-base font-bold">
+                Impact and Relevance
+              </span>
+              : Determine the potential impact of the solution in the real
+              world. Does it address a significant problem, and is it relevant
+              to the target audience? Judges would assess the potential social,
+              economic, or environmental benefits.
+            </span>
+
+            <span className="font-mont text-sm font-normal leading-6 text-white">
+              <span className="text-gradient1 text-base font-bold">
+                Technical Complexity
+              </span>
+              : Evaluate the technical sophistication of the solution. Judges
+              would consider the complexity of the code, the use of advanced
+              technologies or algorithms, and the scalability of the solution.
+            </span>
+
+            <span className="font-mont text-sm font-normal leading-6 text-white">
+              <span className="text-gradient1 text-base font-bold">
+                Adherence to Hackathon Rules
+              </span>
+              : Judges will Ensure that the team adhered to the rules and
+              guidelines of the hackathon, including deadlines, use of specific
+              technologies or APIs, and any other competition-specific
+              requirements.
+            </span>
+
+            <button className="from-primary via-secondary via-gradient1 to-gradient2 mt-8 w-44 rounded-[.25rem] bg-gradient-to-l  from-0% via-[56.42%] via-[99.99%] to-100% px-12 py-4 text-base text-white">
+              Read More
+            </button>
+          </section>
+        </section>
+
+        {/* <section className="absolute right-0 top-0 h-full w-full overflow-hidden">
+          <img
+            className="absolute -right-[30rem] top-20 mix-blend-saturation"
+            src="/Purple-Lens-Flare.png"
+            alt="Purple Flare"
+          />
+        </section> */}
+      </section>
     </section>
   );
 }

@@ -1,5 +1,9 @@
 function Faq() {
-  return <div className="text-white">Frequently asked questions</div>;
+  return (
+    <section id="faq" className="text-white">
+      Frequently asked questions
+    </section>
+  );
 }
 
 export default Faq;

@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Header() {
   const activeLink =
@@ -6,30 +6,31 @@ function Header() {
 
   return (
     <header className="flex items-center justify-between px-32 pb-7 pt-16">
-      <section className="font-clash text-4xl font-bold text-white">
+      <Link to="/" className="font-clash z-50 text-4xl font-bold text-white">
         get<span className="text-secondary">linked</span>
-      </section>
+      </Link>
 
-      <section className="font-mont flex items-center gap-28 text-base font-normal text-white">
+      <section className="font-mont z-50 flex items-center gap-28 text-base font-normal text-white">
         <nav className="space-x-14 py-3">
-          <NavLink
-            to="/timeline"
+          <a
+            href="#timeline"
             className={({ isActive }) => (isActive ? activeLink : "")}
           >
             Timeline
-          </NavLink>
-          <NavLink
-            to="#"
+          </a>
+          <a
+            href="#overview"
             className={({ isActive }) => (isActive ? `${activeLink}` : "")}
           >
             Overview
-          </NavLink>
-          <NavLink
-            to="/faq"
+          </a>
+
+          <a
+            href="#faq"
             className={({ isActive }) => (isActive ? activeLink : "")}
           >
             FAQs
-          </NavLink>
+          </a>
           <NavLink
             to="/contact"
             className={({ isActive }) => (isActive ? activeLink : "")}

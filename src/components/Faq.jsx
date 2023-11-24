@@ -1,15 +1,22 @@
 import { LiaQuestionSolid } from "react-icons/lia";
-import { FaPlus, FaMinus } from "react-icons/fa6";
-import { useState } from "react";
+import FaqItem from "./FaqItem";
+
+const data = [
+  "Can I work on a project I started before the hackathon?",
+  "What happens if I need help during the hackathon?",
+  "What happens if I don't have an idea for a project?",
+  "Can I join a team or do I have to come with one?",
+  "What happens after the hackathon ends",
+  "Can I work on a project I started before the hackathon?",
+];
 
 function Faq() {
-  const [show, setShow] = useState(false);
   return (
-    <section id="faq" className="relative border-y border-white/20 pb-40 pt-40">
+    <section id="faq" className="relative border-y border-white/20 pb-20 pt-48">
       <section className="mx-auto flex max-w-[80rem] flex-row-reverse items-start justify-center gap-[8rem]">
         <section className="relative z-50 w-1/2">
           <img
-            className="w-full"
+            className="h-[42rem] w-full"
             src="/thought.png"
             alt="Persons"
             loading="lazy"
@@ -35,7 +42,7 @@ function Faq() {
             loading="lazy"
           />
           <img
-            className="absolute bottom-0 right-28"
+            className="absolute -bottom-4 right-28"
             src="/star-white.png"
             alt="star"
             loading="lazy"
@@ -53,7 +60,7 @@ function Faq() {
           </span>
         </section>
 
-        <section className="relative flex w-1/2 flex-col gap-12">
+        <section className="relative flex w-1/2 flex-col gap-20">
           {/* ////////////// Star ///////////// */}
 
           <img
@@ -64,6 +71,7 @@ function Faq() {
           />
 
           {/* ///////////// Star end ///////////////// */}
+
           <section className="flex flex-col">
             <h2 className="font-clash text-[2rem] font-bold text-white">
               Frequently Ask <br />
@@ -77,131 +85,9 @@ function Faq() {
           </section>
 
           <section className="flex flex-col items-start justify-start gap-8">
-            {/* 1st */}
-            <span className="border-secondary font-mont flex w-full flex-col gap-2 border-b-2 pb-2 text-sm font-normal text-white">
-              <span className="flex items-center justify-between">
-                Can I work on a project I started before the hackathon?
-                <button
-                  onClick={() => setShow((prev) => !prev)}
-                  className="text-secondary"
-                >
-                  {!show ? <FaPlus /> : <FaMinus />}
-                </button>
-              </span>
-              {show && (
-                <p className="text-xs transition-all duration-300 ease-in-out">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi maxime iste explicabo debitis numquam quod obcaecati
-                  quis voluptas unde nemo beatae officia pariatur possimus
-                  repellat sequi ea neque, totam doloribus!
-                </p>
-              )}
-            </span>
-
-            {/* 2nd */}
-            <span className="border-secondary font-mont flex w-full flex-col gap-2 border-b-2 pb-2 text-sm font-normal text-white">
-              <span className="flex items-center justify-between">
-                Can I work on a project I started before the hackathon?
-                <button
-                  onClick={() => setShow((prev) => !prev)}
-                  className="text-secondary"
-                >
-                  {!show ? <FaPlus /> : <FaMinus />}
-                </button>
-              </span>
-              {show && (
-                <p className="text-xs transition-all duration-300 ease-in-out">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi maxime iste explicabo debitis numquam quod obcaecati
-                  quis voluptas unde nemo beatae officia pariatur possimus
-                  repellat sequi ea neque, totam doloribus!
-                </p>
-              )}
-            </span>
-
-            {/* 3rd */}
-            <span className="border-secondary font-mont flex w-full flex-col gap-2 border-b-2 pb-2 text-sm font-normal text-white">
-              <span className="flex items-center justify-between">
-                Can I work on a project I started before the hackathon?
-                <button
-                  onClick={() => setShow((prev) => !prev)}
-                  className="text-secondary"
-                >
-                  {!show ? <FaPlus /> : <FaMinus />}
-                </button>
-              </span>
-              {show && (
-                <p className="text-xs transition-all duration-300 ease-in-out">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi maxime iste explicabo debitis numquam quod obcaecati
-                  quis voluptas unde nemo beatae officia pariatur possimus
-                  repellat sequi ea neque, totam doloribus!
-                </p>
-              )}
-            </span>
-
-            {/* 4th */}
-            <span className="border-secondary font-mont flex w-full flex-col gap-2 border-b-2 pb-2 text-sm font-normal text-white">
-              <span className="flex items-center justify-between">
-                Can I work on a project I started before the hackathon?
-                <button
-                  onClick={() => setShow((prev) => !prev)}
-                  className="text-secondary"
-                >
-                  {!show ? <FaPlus /> : <FaMinus />}
-                </button>
-              </span>
-              {show && (
-                <p className="text-xs transition-all duration-300 ease-in-out">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi maxime iste explicabo debitis numquam quod obcaecati
-                  quis voluptas unde nemo beatae officia pariatur possimus
-                  repellat sequi ea neque, totam doloribus!
-                </p>
-              )}
-            </span>
-
-            {/* 5th */}
-            <span className="border-secondary font-mont flex w-full flex-col gap-2 border-b-2 pb-2 text-sm font-normal text-white">
-              <span className="flex items-center justify-between">
-                Can I work on a project I started before the hackathon?
-                <button
-                  onClick={() => setShow((prev) => !prev)}
-                  className="text-secondary"
-                >
-                  {!show ? <FaPlus /> : <FaMinus />}
-                </button>
-              </span>
-              {show && (
-                <p className="text-xs transition-all duration-300 ease-in-out">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi maxime iste explicabo debitis numquam quod obcaecati
-                  quis voluptas unde nemo beatae officia pariatur possimus
-                  repellat sequi ea neque, totam doloribus!
-                </p>
-              )}
-            </span>
-
-            {/* 6th */}
-            <span className="border-secondary font-mont flex w-full flex-col gap-2 border-b-2 pb-2 text-sm font-normal text-white">
-              <span className="flex items-center justify-between">
-                Can I work on a project I started before the hackathon?
-                <button
-                  onClick={() => setShow((prev) => !prev)}
-                  className="text-secondary"
-                >
-                  {!show ? <FaPlus /> : <FaMinus />}
-                </button>
-              </span>
-              {show && (
-                <p className="text-xs transition-all duration-300 ease-in-out">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi maxime iste explicabo debitis numquam quod obcaecati
-                  quis voluptas unde nemo beatae officia pariatur possimus
-                  repellat sequi ea neque, totam doloribus!
-                </p>
-              )}
-            </span>
+            {data.map((item, i) => (
+              <FaqItem item={item} key={i} />
+            ))}
           </section>
         </section>
       </section>

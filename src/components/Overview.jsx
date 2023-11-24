@@ -1,7 +1,9 @@
-function Overview() {
+/* eslint-disable react/prop-types */
+function Overview({ overviewRef }) {
   return (
     <section>
       <section
+        ref={overviewRef}
         id="overview"
         className="mx-auto flex max-w-[80rem] items-center justify-center gap-[7rem] py-16"
       >

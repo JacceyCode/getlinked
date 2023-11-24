@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import { Link, NavLink } from "react-router-dom";
 
-function Header() {
+function Header({ faqRef, overviewRef }) {
   const activeLink =
     "from-primary to-gradient1 bg-gradient-to-r from-[3.08%] to-[93.85%] bg-clip-text text-transparent";
 
@@ -12,25 +13,33 @@ function Header() {
 
       <section className="font-mont z-50 flex items-center gap-28 text-base font-normal text-white">
         <nav className="space-x-14 py-3">
-          <a
-            href="#timeline"
+          <NavLink
+            to="#timeline"
             className={({ isActive }) => (isActive ? activeLink : "")}
           >
             Timeline
-          </a>
-          <a
-            href="#overview"
+          </NavLink>
+
+          <NavLink
+            onClick={() => {
+              overviewRef.scrollIntoView({ behavior: "smooth" });
+            }}
+            to="#overview"
             className={({ isActive }) => (isActive ? `${activeLink}` : "")}
           >
             Overview
-          </a>
+          </NavLink>
 
-          <a
-            href="#faq"
+          <NavLink
+            onClick={() => {
+              faqRef.scrollIntoView({ behavior: "smooth" });
+            }}
+            to="#faq"
             className={({ isActive }) => (isActive ? activeLink : "")}
           >
             FAQs
-          </a>
+          </NavLink>
+
           <NavLink
             to="/contact"
             className={({ isActive }) => (isActive ? activeLink : "")}

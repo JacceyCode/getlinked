@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { LiaQuestionSolid } from "react-icons/lia";
 import FaqItem from "./FaqItem";
 
@@ -10,9 +11,13 @@ const data = [
   "Can I work on a project I started before the hackathon?",
 ];
 
-function Faq() {
+function Faq({ faqRef }) {
   return (
-    <section id="faq" className="relative border-y border-white/20 pb-20 pt-48">
+    <section
+      id="faq"
+      ref={faqRef}
+      className="relative border-y border-white/20 pb-20 pt-48"
+    >
       <section className="mx-auto flex max-w-[80rem] flex-row-reverse items-start justify-center gap-[8rem]">
         <section className="relative z-50 w-1/2">
           <img

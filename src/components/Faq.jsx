@@ -1,5 +1,5 @@
 import { LiaQuestionSolid } from "react-icons/lia";
-import FaqItem from "./FaqItem";
+import FaqItem from "../features/FaqItem";
 
 const data = [
   "Can I work on a project I started before the hackathon?",

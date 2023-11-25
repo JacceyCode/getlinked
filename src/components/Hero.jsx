@@ -1,3 +1,5 @@
+import Button from "../features/Button";
+
 function Hero() {
   return (
     <section className="relative flex flex-col gap-[7.7rem] border-y-2 border-white/20 py-8 pl-32 pr-14">
@@ -23,7 +25,7 @@ function Hero() {
       </section>
 
       <section className="relative z-30 flex flex-col">
-        <section className="font-clash flex flex-col text-[5rem] font-bold leading-normal text-white">
+        <section className="flex flex-col font-clash text-[5rem] font-bold leading-normal text-white">
           <h1 className="relative">
             getlinked Tech
             <img
@@ -52,16 +54,14 @@ function Hero() {
           </span>
         </section>
 
-        <p className="font-mont w-[33rem] text-xl font-normal leading-8 text-white">
+        <p className="mb-14 w-[33rem] font-mont text-xl font-normal leading-8 text-white">
           Participate in getlinked tech Hackathon 2023 stand a chance to win a
           Big prize
         </p>
 
-        <button className="from-primary via-secondary via-gradient1 to-gradient2 mt-14 w-44 rounded-[.25rem] bg-gradient-to-l  from-0% via-[56.42%] via-[99.99%] to-100% px-12 py-4 text-base text-white">
-          Register
-        </button>
+        <Button>Register</Button>
 
-        <section className="font-unica my-16 flex items-center gap-8 text-[4rem] font-normal text-white">
+        <section className="my-16 flex items-center gap-8 font-unica text-[4rem] font-normal text-white">
           <span>
             00
             <sub className="font-mont text-sm">H</sub>

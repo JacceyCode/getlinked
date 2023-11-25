@@ -1,3 +1,5 @@
+import Button from "../features/Button";
+
 function Overview() {
   return (
     <section>
@@ -119,7 +121,7 @@ function Overview() {
 
       {/* -------------- 2nd Flare ---------- */}
 
-      <section className="absolute right-0 top-[170rem] h-full w-full overflow-hidden">
+      <section className="absolute right-0 top-[175rem] h-full w-full overflow-hidden">
         <img
           className="absolute -right-[20rem] top-20 mix-blend-saturation"
           src="/Purple-Lens-Flare.png"
@@ -202,72 +204,64 @@ function Overview() {
 
           {/* //////////////// Foot Splash ends /////////////// */}
 
-          <section className="flex w-1/2 flex-col gap-4">
+          <section className="flex w-1/2 flex-col gap-6">
             <h2 className="font-clash text-[2rem] font-bold text-white">
               Judging Criteria <br />
               <span className="text-secondary">Key attributes</span>
             </h2>
 
-            <span className="font-mont text-sm font-normal leading-6 text-white">
-              <span className="text-base font-bold text-gradient1">
-                Innovation and Creativity
+            <section className="mb-8 flex flex-col gap-6">
+              <span className="font-mont text-sm font-normal leading-6 text-white">
+                <span className="text-base font-bold text-gradient1">
+                  Innovation and Creativity
+                </span>
+                : Evaluate the uniqueness and creativity of the solution.
+                Consider whether it addresses a real-world problem in a novel
+                way or introduces innovative features.
               </span>
-              : Evaluate the uniqueness and creativity of the solution. Consider
-              whether it addresses a real-world problem in a novel way or
-              introduces innovative features.
-            </span>
 
-            <span className="font-mont text-sm font-normal leading-6 text-white">
-              <span className="text-base font-bold text-gradient1">
-                Functionality
+              <span className="font-mont text-sm font-normal leading-6 text-white">
+                <span className="text-base font-bold text-gradient1">
+                  Functionality
+                </span>
+                : Assess how well the solution works. Does it perform its
+                intended functions effectively and without major issues? Judges
+                would consider the completeness and robustness of the solution.
               </span>
-              : Assess how well the solution works. Does it perform its intended
-              functions effectively and without major issues? Judges would
-              consider the completeness and robustness of the solution.
-            </span>
 
-            <span className="font-mont text-sm font-normal leading-6 text-white">
-              <span className="text-base font-bold text-gradient1">
-                Impact and Relevance
+              <span className="font-mont text-sm font-normal leading-6 text-white">
+                <span className="text-base font-bold text-gradient1">
+                  Impact and Relevance
+                </span>
+                : Determine the potential impact of the solution in the real
+                world. Does it address a significant problem, and is it relevant
+                to the target audience? Judges would assess the potential
+                social, economic, or environmental benefits.
               </span>
-              : Determine the potential impact of the solution in the real
-              world. Does it address a significant problem, and is it relevant
-              to the target audience? Judges would assess the potential social,
-              economic, or environmental benefits.
-            </span>
 
-            <span className="font-mont text-sm font-normal leading-6 text-white">
-              <span className="text-base font-bold text-gradient1">
-                Technical Complexity
+              <span className="font-mont text-sm font-normal leading-6 text-white">
+                <span className="text-base font-bold text-gradient1">
+                  Technical Complexity
+                </span>
+                : Evaluate the technical sophistication of the solution. Judges
+                would consider the complexity of the code, the use of advanced
+                technologies or algorithms, and the scalability of the solution.
               </span>
-              : Evaluate the technical sophistication of the solution. Judges
-              would consider the complexity of the code, the use of advanced
-              technologies or algorithms, and the scalability of the solution.
-            </span>
 
-            <span className="font-mont text-sm font-normal leading-6 text-white">
-              <span className="text-base font-bold text-gradient1">
-                Adherence to Hackathon Rules
+              <span className="font-mont text-sm font-normal leading-6 text-white">
+                <span className="text-base font-bold text-gradient1">
+                  Adherence to Hackathon Rules
+                </span>
+                : Judges will Ensure that the team adhered to the rules and
+                guidelines of the hackathon, including deadlines, use of
+                specific technologies or APIs, and any other
+                competition-specific requirements.
               </span>
-              : Judges will Ensure that the team adhered to the rules and
-              guidelines of the hackathon, including deadlines, use of specific
-              technologies or APIs, and any other competition-specific
-              requirements.
-            </span>
+            </section>
 
-            <button className="mt-8 w-44 rounded-[.25rem] bg-gradient-to-l from-primary from-0% via-gradient1 via-secondary  via-[56.42%] via-[99.99%] to-gradient2 to-100% px-12 py-4 text-base text-white">
-              Read More
-            </button>
+            <Button>Read More</Button>
           </section>
         </section>
-
-        {/* <section className="absolute right-0 top-0 h-full w-full overflow-hidden">
-          <img
-            className="absolute -right-[30rem] top-20 mix-blend-saturation"
-            src="/Purple-Lens-Flare.png"
-            alt="Purple Flare"
-          />
-        </section> */}
       </section>
     </section>
   );

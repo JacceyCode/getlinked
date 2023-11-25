@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
+import Button from "../features/Button";
 
 function Header() {
   const activeLink =
@@ -50,9 +51,7 @@ function Header() {
           </NavLink>
         </nav>
 
-        <button className="rounded-[.25rem] bg-gradient-to-l from-primary from-0% via-gradient1 via-secondary via-[56.42%] via-[99.99%] to-gradient2 to-100% px-12 py-4">
-          Register
-        </button>
+        <Button>Register</Button>
       </section>
     </header>
   );

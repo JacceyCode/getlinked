@@ -1,9 +1,7 @@
-/* eslint-disable react/prop-types */
-function Overview({ overviewRef }) {
+function Overview() {
   return (
     <section>
       <section
-        ref={overviewRef}
         id="overview"
         className="mx-auto flex max-w-[80rem] items-center justify-center gap-[7rem] py-16"
       >
@@ -26,7 +24,7 @@ function Overview({ overviewRef }) {
             alt="arrow"
             loading="lazy"
           />
-          <p className="font-mont absolute left-0 right-0 top-1/2 mx-auto text-center text-2xl font-bold text-white">
+          <p className="absolute left-0 right-0 top-1/2 mx-auto text-center font-mont text-2xl font-bold text-white">
             The Big <br /> Idea!
           </p>
         </section>
@@ -211,7 +209,7 @@ function Overview({ overviewRef }) {
             </h2>
 
             <span className="font-mont text-sm font-normal leading-6 text-white">
-              <span className="text-gradient1 text-base font-bold">
+              <span className="text-base font-bold text-gradient1">
                 Innovation and Creativity
               </span>
               : Evaluate the uniqueness and creativity of the solution. Consider
@@ -220,7 +218,7 @@ function Overview({ overviewRef }) {
             </span>
 
             <span className="font-mont text-sm font-normal leading-6 text-white">
-              <span className="text-gradient1 text-base font-bold">
+              <span className="text-base font-bold text-gradient1">
                 Functionality
               </span>
               : Assess how well the solution works. Does it perform its intended
@@ -229,7 +227,7 @@ function Overview({ overviewRef }) {
             </span>
 
             <span className="font-mont text-sm font-normal leading-6 text-white">
-              <span className="text-gradient1 text-base font-bold">
+              <span className="text-base font-bold text-gradient1">
                 Impact and Relevance
               </span>
               : Determine the potential impact of the solution in the real
@@ -239,7 +237,7 @@ function Overview({ overviewRef }) {
             </span>
 
             <span className="font-mont text-sm font-normal leading-6 text-white">
-              <span className="text-gradient1 text-base font-bold">
+              <span className="text-base font-bold text-gradient1">
                 Technical Complexity
               </span>
               : Evaluate the technical sophistication of the solution. Judges
@@ -248,7 +246,7 @@ function Overview({ overviewRef }) {
             </span>
 
             <span className="font-mont text-sm font-normal leading-6 text-white">
-              <span className="text-gradient1 text-base font-bold">
+              <span className="text-base font-bold text-gradient1">
                 Adherence to Hackathon Rules
               </span>
               : Judges will Ensure that the team adhered to the rules and
@@ -257,7 +255,7 @@ function Overview({ overviewRef }) {
               requirements.
             </span>
 
-            <button className="from-primary via-secondary via-gradient1 to-gradient2 mt-8 w-44 rounded-[.25rem] bg-gradient-to-l  from-0% via-[56.42%] via-[99.99%] to-100% px-12 py-4 text-base text-white">
+            <button className="mt-8 w-44 rounded-[.25rem] bg-gradient-to-l from-primary from-0% via-gradient1 via-secondary  via-[56.42%] via-[99.99%] to-gradient2 to-100% px-12 py-4 text-base text-white">
               Read More
             </button>
           </section>

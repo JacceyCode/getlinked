@@ -1,18 +1,9 @@
-import { LiaQuestionSolid } from "react-icons/lia";
-import FaqItem from "./FaqItem";
-
-const data = [
-  "Can I work on a project I started before the hackathon?",
-  "What happens if I need help during the hackathon?",
-  "What happens if I don't have an idea for a project?",
-  "Can I join a team or do I have to come with one?",
-  "What happens after the hackathon ends",
-  "Can I work on a project I started before the hackathon?",
-];
-
-function Faq() {
+function Timeline() {
   return (
-    <section id="faq" className="relative border-y border-white/20 pb-20 pt-48">
+    <section
+      id="timeline"
+      className="relative border-y border-white/20 pb-20 pt-48"
+    >
       <section className="mx-auto flex max-w-[80rem] flex-row-reverse items-start justify-center gap-[8rem]">
         <section className="relative z-50 w-1/2">
           <img
@@ -47,17 +38,6 @@ function Faq() {
             alt="star"
             loading="lazy"
           />
-
-          {/* /////////////// Question mark ////////////////////// */}
-          <span className="absolute -top-[7rem] left-36 text-secondary">
-            <LiaQuestionSolid className="h-32 w-32" />
-          </span>
-          <span className="absolute -top-[2.2rem] left-12 text-primary">
-            <LiaQuestionSolid className="h-20 w-20" />
-          </span>
-          <span className="absolute -top-[2.2rem] left-[19rem] text-primary">
-            <LiaQuestionSolid className="h-20 w-20" />
-          </span>
         </section>
 
         <section className="relative flex w-1/2 flex-col gap-20">
@@ -83,16 +63,10 @@ function Faq() {
               <span className="font-bold">getlinked Hackathon 1.0</span>
             </span>
           </section>
-
-          <section className="flex flex-col items-start justify-start gap-8">
-            {data.map((item, i) => (
-              <FaqItem item={item} key={i} />
-            ))}
-          </section>
         </section>
       </section>
     </section>
   );
 }
 
-export default Faq;
+export default Timeline;

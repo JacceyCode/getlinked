@@ -1,6 +1,6 @@
 function RegistrationDates() {
   return (
-    <section className="mx-auto flex max-w-[80rem] flex-col items-center justify-center gap-[5.6rem] py-[4.5rem] text-white">
+    <section className="mx-auto flex max-w-[80rem] flex-col items-center justify-center gap-[5.6rem] pb-[6.81rem] pt-[4.5rem] text-white">
       <section className="flex w-full flex-col items-center justify-center">
         <h3 className="font-clash text-[2rem] font-bold">Timeline</h3>
         <p className="w-[21.625rem] text-center font-mont text-sm font-normal">

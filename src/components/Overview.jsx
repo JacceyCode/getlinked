@@ -165,7 +165,7 @@ function Overview() {
 
           {/* /////////// Ellipse starts ////////////// */}
 
-          <span className="absolute left-[17rem] top-32">
+          <span className="absolute left-[16.5rem] top-36">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="134"

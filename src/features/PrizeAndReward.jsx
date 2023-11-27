@@ -1,6 +1,6 @@
 function PrizeAndReward() {
   return (
-    <section className="">
+    <section className="bg-background mix-blend-difference">
       <section className="mx-auto flex max-w-[80rem] flex-col pb-[9.3rem] pt-[4.62rem]">
         <section>
           <section className="float-right w-[35rem] font-clash text-[2rem] font-bold text-white">
@@ -18,13 +18,13 @@ function PrizeAndReward() {
             <section>
               <img className="w-full" src="/trophy.png" alt="Trophy" />
             </section>
-            {/* <section className="absolute -top-20 left-24">
+            <section className="absolute -left-72 -top-80 w-[80rem] mix-blend-saturation">
               <img
-                className="w-full mix-blend-soft-light"
+                className="w-full"
                 src="/Purple-Lens-Flare.png"
                 alt="Purple Flare"
               />
-            </section> */}
+            </section>
 
             {/* /////////////Stars/////////////////// */}
             <img

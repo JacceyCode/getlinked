@@ -14,20 +14,35 @@ function PrizeAndReward() {
         </section>
 
         <section className="flex items-center gap-12">
-          <section className="">
+          <section className="relative">
             <section>
               <img className="w-full" src="/trophy.png" alt="Trophy" />
             </section>
             {/* <section className="absolute -top-20 left-24">
               <img
-                className="w-full mix-blend-color-dodge"
+                className="w-full mix-blend-soft-light"
                 src="/Purple-Lens-Flare.png"
                 alt="Purple Flare"
               />
             </section> */}
+
+            {/* /////////////Stars/////////////////// */}
+            <img
+              className="absolute -top-52 left-52 w-4"
+              src="/star.png"
+              alt="star"
+              loading="lazy"
+            />
+
+            <img
+              className="absolute -bottom-16 left-52 w-4"
+              src="/star-white.png"
+              alt="star"
+              loading="lazy"
+            />
           </section>
 
-          <section className="flex items-center gap-4 pt-72">
+          <section className="relative flex items-center gap-4 pt-72">
             {/* 1st */}
             <section className="relative flex h-[18.5rem] w-[13.25rem] flex-col items-center justify-end rounded-lg border border-secondary bg-secondary/[0.12] pb-[2rem]">
               <img
@@ -74,6 +89,28 @@ function PrizeAndReward() {
                 <p className="text-[2rem] font-bold text-secondary">N150,000</p>
               </section>
             </section>
+
+            {/* /////////////Stars/////////////////// */}
+            <img
+              className="absolute left-12 top-32 w-6"
+              src="/star-white.png"
+              alt="star"
+              loading="lazy"
+            />
+
+            <img
+              className="absolute -right-4 top-56 w-6"
+              src="/star-white.png"
+              alt="star"
+              loading="lazy"
+            />
+
+            <img
+              className="absolute -bottom-10 left-[27.2rem] w-6"
+              src="/star-gray.png"
+              alt="star"
+              loading="lazy"
+            />
           </section>
         </section>
       </section>

@@ -1,7 +1,7 @@
 function PrizeAndReward() {
   return (
     <section className="bg-background mix-blend-difference">
-      <section className="mx-auto flex max-w-[80rem] flex-col pb-[9.3rem] pt-[4.62rem]">
+      <section className="relative mx-auto flex max-w-[80rem] flex-col pb-[9.3rem] pt-[4.62rem]">
         <section>
           <section className="float-right w-[35rem] font-clash text-[2rem] font-bold text-white">
             <h2>Prizes and</h2>
@@ -13,17 +13,21 @@ function PrizeAndReward() {
           </section>
         </section>
 
+        {/* /////////////Spalsh////////////////// */}
+        <section className="absolute -left-[20rem] -top-[7rem] w-[80rem] mix-blend-saturation">
+          <img
+            className="w-full"
+            src="/Purple-Lens-Flare.png"
+            alt="Purple Flare"
+          />
+        </section>
+
+        {/* /////////////Spalsh end//////////////// */}
+
         <section className="flex items-center gap-12">
           <section className="relative">
             <section>
               <img className="w-full" src="/trophy.png" alt="Trophy" />
-            </section>
-            <section className="absolute -left-72 -top-80 w-[80rem] mix-blend-saturation">
-              <img
-                className="w-full"
-                src="/Purple-Lens-Flare.png"
-                alt="Purple Flare"
-              />
             </section>
 
             {/* /////////////Stars/////////////////// */}
@@ -44,7 +48,7 @@ function PrizeAndReward() {
 
           <section className="relative flex items-center gap-4 pt-72">
             {/* 1st */}
-            <section className="relative flex h-[18.5rem] w-[13.25rem] flex-col items-center justify-end rounded-lg border border-secondary bg-secondary/[0.12] pb-[2rem]">
+            <section className="relative flex h-[18.5rem] w-[13.25rem] flex-col items-center justify-end rounded-lg border border-secondary bg-secondary/[0.2] pb-[2rem]">
               <img
                 className="absolute -top-20"
                 src="/second-medal.png"
@@ -59,7 +63,7 @@ function PrizeAndReward() {
             </section>
 
             {/* 2nd */}
-            <section className="relative flex h-[21.6875rem] w-[13.25rem] flex-col items-center justify-end rounded-lg border border-primary bg-primary/[0.12] pb-[2rem]">
+            <section className="relative flex h-[21.6875rem] w-[13.25rem] flex-col items-center justify-end rounded-lg border border-primary bg-primary/[0.3] pb-[2rem]">
               <section className="absolute -top-32 h-60 w-72">
                 <img
                   className="w-full"
@@ -71,12 +75,12 @@ function PrizeAndReward() {
               <section className="text-center font-mont text-white">
                 <h4 className="text-4xl font-bold">1st</h4>
                 <h5 className="text-2xl font-semibold">Runner</h5>
-                <p className="text-[2rem] font-bold text-secondary">N400,000</p>
+                <p className="text-[2rem] font-bold text-primary">N400,000</p>
               </section>
             </section>
 
             {/* 3rd */}
-            <section className="relative flex h-[18.5rem] w-[13.25rem] flex-col items-center justify-end rounded-lg border border-secondary bg-secondary/[0.12] pb-[2rem]">
+            <section className="relative flex h-[18.5rem] w-[13.25rem] flex-col items-center justify-end rounded-lg border border-secondary bg-secondary/[0.2] pb-[2rem]">
               <img
                 className="absolute -top-20"
                 src="/third-medal.png"

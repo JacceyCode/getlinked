@@ -13,28 +13,61 @@ function PartnersAndSponsors() {
         </section>
 
         <section className="flex h-[35rem] w-[78.4375rem] rounded-[0.3125rem] border border-secondary bg-secondary/[0.01] px-[11rem] py-[9rem]">
-          <section className="flex basis-1/3 flex-col items-center justify-between border-r-4 border-secondary">
-            <img src="/liberty.png" alt="Liberty company logo" />
+          {/* 1st */}
+          <section className="flex basis-1/3 flex-col items-center justify-between border-r-4 border-secondary px-8">
+            <section className="flex basis-1/2 items-center justify-center">
+              <img
+                className="w-full"
+                src="/liberty.png"
+                alt="Liberty company logo"
+              />
+            </section>
 
             <hr className="h-1 w-full border-none bg-secondary" />
 
-            <img src="/wisper.png" alt="Whisperms company logo" />
+            <section className="flex basis-1/2 items-center justify-center">
+              <img
+                className="w-full"
+                src="/wisper.png"
+                alt="Whisperms company logo"
+              />
+            </section>
           </section>
 
-          <section className="flex basis-1/3 flex-col items-center justify-between">
-            <img src="/liberty2.png" alt="Liberty company logo" />
+          {/* 2nd */}
+          <section className="flex basis-1/3 flex-col items-center justify-between px-8">
+            <section className="flex basis-1/2 items-center justify-center">
+              <img
+                className="w-full"
+                src="/liberty2.png"
+                alt="Liberty company logo"
+              />
+            </section>
 
             <hr className="h-1 w-full border-none bg-secondary" />
 
-            <img src="/wisper.png" alt="Whisperms company logo" />
+            <section className="font-typo flex basis-1/2 items-center justify-center text-[3.1875rem] font-normal text-white">
+              Pay
+              <span className="text-[#00A3FF]">box</span>
+            </section>
           </section>
 
-          <section className="flex basis-1/3 flex-col items-center justify-between border-l-4 border-secondary">
-            <img src="/winwise.png" alt="Liberty company logo" />
+          {/* 3rd */}
+          <section className="flex basis-1/3 flex-col items-center justify-between border-l-4 border-secondary px-8">
+            <section className="flex basis-1/2 items-center justify-center">
+              <img
+                className="w-full"
+                src="/winwise.png"
+                alt="Winwise company logo"
+              />
+            </section>
 
             <hr className="h-1 w-full border-none bg-secondary" />
 
-            <img src="/wisper.png" alt="Whisperms company logo" />
+            <section className="font-typo flex basis-1/2 items-center justify-center text-[3.1875rem] font-normal text-white">
+              Pay
+              <span className="text-[#00A3FF]">box</span>
+            </section>
           </section>
         </section>
       </section>
